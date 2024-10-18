@@ -1,0 +1,20 @@
+.internal-jotai-devtools-atom-graph .internal-jotai-devtools-atom-graph-lines {
+  background: var(--mantine-color-dark-1);
+  color: var(--mantine-color-dark-8);
+  [data-mantine-color-scheme='dark'] & {
+    background: var(--mantine-color-dark-8);
+    color: var(--mantine-color-blue-5);
+  }
+}
+
+.internal-jotai-devtools-atom-list-wrapper {
+  background: var(--mantine-color-gray-2);
+
+  [data-mantine-color-scheme='dark'] & {
+    background: var(--mantine-color-dark-8);
+  }
+}
+
+.internal-jotai-devtools-atom-graph-panel {
+  overflow: auto !important;
+}
